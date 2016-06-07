@@ -3,7 +3,7 @@
 	"name": "Presently",
 	"description": "A currently clone",
 	"version": "0.1",
-	"permissions": ["http://api.wunderground.com/api/", "http://autocomplete.wunderground.com/api", "http://apps.swasth.org/", "unlimitedStorage"],
+	"permissions": ["http://api.wunderground.com/api/", "http://autocomplete.wunderground.com/api", "http://apps.swasth.org/", "unlimitedStorage", {"fileSystem": ["write"]}],
 	"background": {
 		"scripts": ["js/vendor/angular.min.js"]
 	},
